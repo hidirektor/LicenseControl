@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LicenseControl.jnlp">
+    <information>
+        <title>HelloApplication</title>
+        <vendor>Unknown</vendor>
+        <description>HelloApplication</description>
+        <offline-allowed/>
+    </information>
+    <update check="background"/>
+    <resources>
+        <j2se version="11.0.13+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="LicenseControl.jar" size="3633" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="600" height="400" main-class="me.t3sl4.licensecontrol.HelloApplication" name="HelloApplication"/>
+</jnlp>
+
